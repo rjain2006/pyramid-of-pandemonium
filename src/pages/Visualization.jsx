@@ -17,7 +17,7 @@ const bubbleSortSteps = (array) => {
         steps.push({ arr: [...arr], comparing: [j, j+1] });
       }
     }
-  }
+}
   return steps;
 };
 
