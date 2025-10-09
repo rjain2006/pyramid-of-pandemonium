@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Onboarding from './components/Onboarding';
-import AlgorithmSelector from './components/AlgorithmSelector';
-import Visualization from './components/Visualization';
-import PerformanceDashboard from './components/PerformanceDashboard';
-import QuizMode from './components/QuizMode';
+import Header from './pages/Header';
+import Onboarding from './pages/Onboarding';
+import AlgorithmSelector from './pages/AlgorithmSelector';
+import Visualization from './pages/Visualization';
+import PerformanceDashboard from './pages/PerformanceDashboard';
+import QuizMode from './pages/QuizMode';
 
 const App = () => {
   return (
